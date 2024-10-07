@@ -25,7 +25,7 @@ public class TareasView extends JFrame {
         setLayout(new BorderLayout());
 
         JPanel panelControles = new JPanel();
-        panelControles.setLayout(new BoxLayout(panelControles, BoxLayout.Y_AXIS)); // Cambiado a BoxLayout vertical
+        panelControles.setLayout(new BoxLayout(panelControles, BoxLayout.Y_AXIS));
 
         JButton agregarTareaButton = new JButton("Agregar Tarea");
         JButton eliminarTareaButton = new JButton("Eliminar Tarea");
@@ -34,7 +34,7 @@ public class TareasView extends JFrame {
         panelControles.add(PapeleraTareaButton);
         panelControles.add(agregarTareaButton);
         panelControles.add(eliminarTareaButton);
-        panelControles.add(Box.createRigidArea(new Dimension(0, 10))); // Espaciador
+        panelControles.add(Box.createRigidArea(new Dimension(0, 10)));
 
         add(panelControles, BorderLayout.WEST);
 
